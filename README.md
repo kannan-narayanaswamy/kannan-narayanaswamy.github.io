@@ -14,12 +14,12 @@
 
 <p>Research Interests:</p>
 <ul>
-<li>Political Economy</li>
 <li>Development Economics</li>
+<li>Public Economics</li>
 <li>Governance</li>
 </ul>
 
-<p>Email: your-email@illinois.edu</p>
+<p>Email: kannann2@illinois.edu</p>
 
 </body>
 </html>
