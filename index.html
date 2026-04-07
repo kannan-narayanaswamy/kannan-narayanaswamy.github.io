@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kannan Narayanaswamy</title>
+
+    <!-- Better font -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;500&display=swap" rel="stylesheet">
+
     <style>
         body {
-            font-family: Georgia, "Times New Roman", serif;
-            background: white;
+            font-family: 'Source Serif 4', serif;
+            background: #faf9f7;
             color: #222;
             margin: 0;
             line-height: 1.7;
@@ -15,19 +19,24 @@
 
         .page {
             max-width: 760px;
-            margin: 0 auto;
-            padding: 40px 24px 60px 24px;
+            margin: 60px auto;
+            padding: 40px 30px 60px 30px;
+            background: white;
+            border: 1px solid #e6e4e1;
         }
 
         .nav {
+            text-align: center;
             margin-bottom: 40px;
-            font-size: 16px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #e6e4e1;
         }
 
         .nav a {
-            color: #222;
+            color: #5a6c7d; /* muted blue-gray */
             text-decoration: none;
-            margin-right: 18px;
+            margin: 0 18px;
+            font-size: 16px;
         }
 
         .nav a:hover {
@@ -35,43 +44,51 @@
         }
 
         h1 {
-            font-size: 38px;
-            font-weight: normal;
-            margin: 0 0 18px 0;
+            text-align: center;
+            font-size: 36px;
+            font-weight: 500;
+            margin-bottom: 25px;
         }
 
         .photo {
-            margin: 18px 0 28px 0;
+            text-align: center;
+            margin-bottom: 30px;
         }
 
         .photo img {
-            width: 240px;
+            width: 220px;
             height: auto;
-            display: block;
         }
 
         p {
-            font-size: 18px;
-            margin: 0 0 18px 0;
+            font-size: 17px;
+            margin-bottom: 18px;
         }
 
         .email {
-            margin-top: 26px;
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e6e4e1;
         }
 
         .email a {
-            color: #222;
+            color: #5a6c7d;
             text-decoration: none;
         }
 
         .email a:hover {
             text-decoration: underline;
         }
+
     </style>
 </head>
+
 <body>
     <div class="page">
+
         <div class="nav">
+            <a href="#">Home</a>
             <a href="research.html">Research</a>
             <a href="cv.pdf" target="_blank">CV</a>
         </div>
@@ -93,9 +110,10 @@
             I also worked as a consultant on water, sanitation and hygiene (WASH).
         </p>
 
-        <p class="email">
-            You can reach me at <a href="mailto:kannann2@illinois.edu">kannann2@illinois.edu</a>.
-        </p>
+        <div class="email">
+            <a href="mailto:kannann2@illinois.edu">kannann2@illinois.edu</a>
+        </div>
+
     </div>
 </body>
 </html>
