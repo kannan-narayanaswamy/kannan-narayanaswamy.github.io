@@ -3,115 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <title>Research - Kannan Narayanaswamy</title>
-
-    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;500&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: 'Source Serif 4', serif;
-            background: #f8f7f4;
-            color: #1b5e55;
+            font-family: 'Libre Baskerville', serif;
             margin: 0;
-            line-height: 1.7;
+            line-height: 1.75;
+            background-color: #edf6f1;
         }
-
         .page {
             max-width: 760px;
-            margin: 60px auto;
-            padding: 40px 30px 60px 30px;
-            background: white;
-            border: 1px solid #e6e4e1;
+            margin: 48px auto;
+            padding: 48px 44px 60px 44px;
+            background-color: #edf6f1;
+            border: 0.5px solid #c8e0d5;
         }
-
         .nav {
-            text-align: center;
-            margin-bottom: 40px;
-            padding-bottom: 15px;
-            border-bottom: 1px solid #e6e4e1;
+            display: flex;
+            justify-content: flex-end;
+            gap: 28px;
+            margin-bottom: 48px;
+            padding-bottom: 16px;
+            border-bottom: 0.5px solid #c8e0d5;
         }
-
         .nav a {
-            color: #5a6c7d;
+            font-size: 15px;
+            color: #3a7a60;
             text-decoration: none;
-            margin: 0 18px;
-            font-size: 16px;
+            letter-spacing: 0.01em;
         }
-
         .nav a:hover {
+            color: #2b3a35;
             text-decoration: underline;
         }
-
         h1 {
-            text-align: center;
-            font-size: 32px;
-            font-weight: 500;
+            font-size: 22px;
+            font-weight: 700;
+            color: #2b3a35;
+            margin: 0 0 36px 0;
+        }
+        .paper {
             margin-bottom: 40px;
         }
-
-        .paper {
-            margin-bottom: 30px;
-        }
-
         .title {
-            font-size: 18px;
-            font-weight: 500;
-            margin-bottom: 8px;
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 6px;
         }
-
-        .links a {
-            margin-right: 12px;
-            color: #5a6c7d;
+        .title a {
+            color: #2b3a35;
             text-decoration: none;
-            font-size: 15px;
+            border-bottom: 1px solid #8abfaa;
         }
-
-        .links a:hover {
-            text-decoration: underline;
+        .title a:hover {
+            color: #3a7a60;
+            border-bottom-color: #3a7a60;
         }
-
+        .meta {
+            font-size: 14px;
+            color: #3d4f48;
+            margin: 6px 0 12px 0;
+        }
         p {
-            font-size: 17px;
-            margin: 10px 0;
+            font-size: 15px;
+            color: #3d4f48;
+            margin: 0 0 12px 0;
+            line-height: 1.8;
         }
-
     </style>
 </head>
-
 <body>
     <div class="page">
-
-        <div class="nav">
+        <nav class="nav">
             <a href="index.html">Home</a>
             <a href="#">Research</a>
             <a href="cv.pdf">CV</a>
-        </div>
+        </nav>
 
         <h1>Working Papers</h1>
 
         <div class="paper">
             <div class="title">
-            <a href="https://download.ssrn.com/2026/2/14/6236358.pdf?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECYaCXVzLWVhc3QtMSJHMEUCIQDopzkSJkeiPjORGDXXWbft4ULU1VHJtDQGjIE37rfkSwIgPD46wgi2ig3AMLb1xb%2BtpLYACpnunjEgaye8tqNqJwcqxgUI7v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzMDg0NzUzMDEyNTciDKrgnQUTSDCGERSCoSqaBdRPkWnrDaEqeMbyZ30XD9RB2dsoAVO1z9e6DcbFo5zWkxH9ph97wteIcyCuGNky%2F9VPFtR4cniagiLKFLoalLyJOC27f3HkSOOf1ICStHt2IzTqXPGX6mTv%2FW6VbDqPNS0IahtJNEDFAaTCG5eJFE7VykOiHv9l6YjzbV%2FjL8a6BJd3W5IH%2F8xSbEiylYQm4gK4n%2FcZDeF%2Fprlc%2FSprN5acpXYqojheMkGIbFz0NeJxSpxD3Gh%2Fjf450zTOD0BwUaRld3C23HcoPCUYUHCmPO0yKL6LyaO1So%2B%2F0GMWo93FrrS4fJs2acGX3YOiuB4swgkB4PCMSv7Du%2FNDOW%2FKMnGDLRuVCq1Sx1JNAlTPwJNB2viiiL5h4HFjcsfEXWf3Uzzg6FF9lGnACPcE4uIDdxqciQ4VZZNS0iP8WmpiNzLbRtUFbC9U5WtIMzb%2BkVkNo0vdi4trdIqZtLmBPfpCAcCddTG0va4gb%2BX6b8sXyzhSsQ3Jm6Si0bnIc1VN55dH49SipPchAHGQGYaPDoJizweOzh8RQiguQ3QYQFsW%2BgY4%2FZK83XFj2O8Wmj601G8m3VYHfQJCVuQzu%2BC6jTy%2BSdsWEPVk447H2g2PH%2FoquNiPIrC7Ts3%2BAqKmwGoyIRx04m9IiFQIBk0b%2BxXRgmhJ0%2BR61MwUYacxq3HREM0TGyfaaGL80%2BnynGm924z4ri%2FB42sXISCRRG60ZmWCZl00hMkY79NwwN%2BktpLxfQqRdggEoPtQYFRySVfTQOXgrni%2FVJ3M6y2dbFlZn0YxIFtNcCtlXSp6umrfGBDvAwff0Ae9ZMUXx%2B9Z%2BGmvInfVIkyJXtMBbfSii1MCZpYSC%2FuX0uBA4a8j%2BibhZI1W0cpBX%2Bwo9YvGHBS2gGNbsTDn6dXOBjqxAZ4sHCErtsAEC7e6rjTYKNxKG%2BT9mGdm70v%2B5ArmoqnHxckIdHWPJnAI3%2FAJfCgOGVl95mhA%2BgqJuv7lUy0BCNZMEHKUlaW1uBb01oHbuU1DqGFYyRACu%2Bi3HxyJxipHI70bbyfzEUa8h3Z9Dx8wxxlc%2BLQGRhjBlUmoUPJ8GYiuIcsM2jphPlJGkrp6D4VYe1PQ5cPHjM%2FTRZOr6cuTkvVgmUC%2F9v2FaQC1tsmYPGEL0w%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260407T222458Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAUPUUPRWETXREZDEW%2F20260407%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=13fc5d307ec2ded3bd684d1e9b2771c5befd9e96acab5154534ec287796c261c&abstractId=6236358" target="_blank">
-            Bank Expansion and Moneylender Interest Rates: Evidence from India
-             </a>
+                <a href="https://ssrn.com/abstract=6236358" target="_blank">
+                    Bank Expansion and Moneylender Interest Rates: Evidence from India
+                </a>
+            </div>
+            <p class="meta">(with co-authors) &nbsp;|&nbsp; Revise and Resubmit, <em>Journal of Development Studies</em></p>
+            <p>This paper studies how the expansion of formal banking affects interest rates in informal credit markets. Using the Reserve Bank of India's 2005 Branch Authorisation Policy, I exploit quasi-experimental variation in bank branch expansion across districts in a fuzzy regression discontinuity design.</p>
+            <p>We find that moneylender interest rates decline by approximately 19% in treated districts five to eight years after the policy. The results are consistent with increased competition from formal banks reducing the market power of informal lenders, with limited evidence supporting a dominant adverse selection mechanism.</p>
         </div>
-
-        <p style="font-size:15px; color:#555; margin-top:5px;">
-            (with co-authors) &nbsp;|&nbsp; Revise and Resubmit, Journal of Development Studies
-        </p>
-
-        <div class="links">
-            <!-- Add links later -->
-            <!-- <a href="paper.pdf">Paper</a> -->
-        </div>
-
-    <p>
-        This paper studies how the expansion of formal banking affects interest rates in informal credit markets. Using the Reserve Bank of India’s 2005 Branch Authorisation Policy, I exploit quasi-experimental variation in bank branch expansion across districts in a fuzzy regression discontinuity design.
-    </p>
-
-    <p>
-        We find that moneylender interest rates decline by approximately 19% in treated districts five to eight years after the policy. The results are consistent with increased competition from formal banks reducing the market power of informal lenders, with limited evidence supporting a dominant adverse selection mechanism.
-    </p>
-</div>
 
     </div>
 </body>
